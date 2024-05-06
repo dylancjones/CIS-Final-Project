@@ -427,6 +427,17 @@
     cursor: pointer;
 }
 
+.services__card button a {
+    /* Set the text color of the anchor tag to white and remove underline */
+    color: #fff;
+    text-decoration: none;
+}
+
+.services__card button:hover {
+    background: #4837ff;
+    transition: all 0.3s ease;
+}
+
 .services__card:hover {
     transform: scale(1.075);
     transition: 0.2s ease-in;
