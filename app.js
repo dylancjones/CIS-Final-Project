@@ -6,3 +6,10 @@ menu.addEventListener('click', function() {
     menuLinks.classList.toggle('active');
 })
 
+const serviceButtons = document.querySelectorAll('.services__card button');
+
+serviceButtons.forEach(button => {
+    button.addEventListener('click', () => {
+        window.location.href = button.querySelector('a').getAttribute('href');
+    });
+});
