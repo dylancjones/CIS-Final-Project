@@ -200,7 +200,8 @@
 
 /* Hero Section CSS */
 .main {
-    background-color: #141414;
+    background-color: #141414; /* Match the background color of the site */
+    margin-bottom: 0;
 }
 
 .main__container {
@@ -348,6 +349,7 @@
         margin: 2.5rem 0;
     }
 }
+
 
 /* Services Section CSS */
 .services {
@@ -586,5 +588,46 @@
         width: 100%;
     }
 } 
+
+/* Rules CSS */
+.rules {
+    margin-top: 0px;
+    background-color: #141414; 
+    color: #fff; 
+    text-align: left; 
+    padding: 50px; 
+    font-size: 1.2rem; 
+}
+
+.rules h2 {
+    font-size: 2rem; 
+    margin-bottom: 20px;
+    color: #ff8177; 
+}
+
+.rules p {
+    font-size: 1.2rem; 
+    margin-bottom: 10px;
+}
+
+.rules ul {
+    list-style-type: disc;
+    margin-bottom: 20px;
+}
+
+.rules ul li {
+    margin-left: 80px;
+}
+
+.rule {
+    font-weight: bold;
+}
+
+
+
+
+
+
+
 
 
